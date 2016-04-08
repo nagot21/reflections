@@ -1,0 +1,12 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a repository Git will have the capability to track all the modifications made in this folder. You have to do it in order to be able to commit your files.
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is a place where the potential files to the next commit will be cached. It's diferent from the directory and repository since its in the middle way of both. You can't edit edit the cached files, you can only remove them from the cache, and they still aren't in the repository.
+
+The staging area is a good place to reflect which file will be sent in the next commit. There you can analize and see if there is a logic correlation between the files that will be sent to the repository.
+
+
