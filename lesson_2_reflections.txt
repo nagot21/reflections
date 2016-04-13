@@ -18,4 +18,29 @@ Seeing how many files were updated before commit. Doing so, you'll be able to ch
 
 ==
 
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches helps you to keep organization in situations where you want, for example, implement a new feature on your code, but it's still experimental. For instance, imagine you have a game running perfectly in production, but you want to add some new experimental difficult on it without changing it. How should you do? In that case, the use of different branch system would help you making that change in a separated branch without making you loose track of the oficial release, since you wouldn't be altering the history of the master branch.
+
+==
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams helps you to visualize the original tip where, for instance, the master branch divided to a second different branch. In other words it helps you to see the commit parent so you can easily trace back where the original split occured.
+
+==
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result is that two branches becomes one with all the functions of the master branch plus the new functions of the other branch. Because in one point they were a separated but, after the merge, they are one again.
+
+==
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging has its advantages, since it's easier since you don't have to check your code at all. But there is some problems with this kind of mergin if git find some conflicts on a file. Git wouldn't know which version of the code isright, so it needs human interaction to choose between the versions. 
+Summarizing: If your code doesn't have any conflict, the automatic merge will go smoothly. Otherwise you have to intervene to get the right code.
+
+==
+
 
