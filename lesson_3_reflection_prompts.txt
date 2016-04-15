@@ -6,4 +6,10 @@ The second, and in my opinion a very critical one, is for have a backup of all y
 
 ==
 
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+Because if you are working with a team, sometimes there are some new updates available on the remote repository that will cause conflicts with your current code. So it's wise to check the changes made on the remote repository before push.
+
+==
+
 
