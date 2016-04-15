@@ -12,4 +12,18 @@ Because if you are working with a team, sometimes there are some new updates ava
 
 ==
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
+Fork is used only on GitHub. It will copy a enterely repository to you own account. But the owner of the original repository will know that you have copied it. All the changes made on the copied repository will not affect the original one.
+
+Clone is when you copy a repository directly to your computer. In that mode, the owner will not know that his repository was copied by someone. All the changes made on the copied repository will not affect the original one.
+
+Branches is made on your own repository to create separated path from your master branch. The branch will allow you to work, for instance, in a new version of your code, without impact the code in production.
+
+Fork is used on the GitHub website.
+
+Clone is used to get your own created online repository to your computer.
+
+Branch is used either on you computer or on the GitHub website to create a separated version of your master branch.
+
+==
