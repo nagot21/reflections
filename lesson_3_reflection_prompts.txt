@@ -37,3 +37,11 @@ The benefit it's to not to be so behind if the other person is working with you.
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 Well, the only way I can think of collaboration without GitHub would be using some sort of platform or server that could be used simultaneously. I think there is no easy way on that one, since you would have to do the changes in your computer, upload then send e-mail to your collaborators to see what you've changed than merge.
+
+==
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+You make changes on a separate branch when your master has all the working code and it's in a production environment. So, in order to implement new features without disrupting a well organized code, you start to implement new changes on separate branch where you can try wherever you want.
+
+The benefit is all talked above plus you can share and check your code with your collaborators using pull-requests and, after everything is the way you want you can simply merge into your master knowing that the code won't break.
