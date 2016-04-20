@@ -27,3 +27,7 @@ Clone is used to get your own created online repository to your computer.
 Branch is used either on you computer or on the GitHub website to create a separated version of your master branch.
 
 ==
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+The benefit it's to not to be so behind if the other person is working with you. Imagine if have to go to some place without internet access and you have to work on the project without having the possibility of pushing. When you came back, all the work made by you and you co-worker will have to be merged. Now, imagine how different the code is now from the time you went off? I suppose it will be pretty different. So, in order to prevent that from happening if you have internet access, it's important to pull the files everytime you have the oportunity to do so.
